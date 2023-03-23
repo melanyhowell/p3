@@ -61,10 +61,38 @@ I have created a full-stack website [site](website address) that allows my users
 ## Project Requirements
 
 Main technologies need to be used
-    - 
++ HTML
++ CSS
++ JavaScript
++ Python+Flask
++ PostgreSQL
+
++ Additional Libraries and External APIs
+    - tech library example
+
+
 
 Mandatory Requirements
-    - 
+
++ Data handling - To build a relationa Database backed Flask project for a web application that allows users to store and manipulate data records about a particular domain.
+
++ Database structure - deigning a database structure well-suited for my domain. Showing thought put into relationships between records of different entities.
+
++ User Functionality - Use CRUD Functionality so users can Create, Read, Update and Delete records. (including locate).
+
++ Use of technologies - Use HTML and custom CSS for the website's front-end.
+
++ Structure - Incorporate a main navigation menu and structured layout.
+
++ Documentation - Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+
++ Version control - Use Git & GitHub for version control.
+
++ Attribution - Maintain clear separation between code written by you and code from external sources.
+
++ Deployment: Deploy the final version of your code to a hosting platform such as Heroku.
+
+
 
 ---
 ## Objectives
@@ -81,13 +109,26 @@ This project has the folowing requirements:
 
 ### Initial Concept
 
+#### Features to include
++ Create a web application that allows users to store and easily access cooking recipes. Recipes would include fields such as ingredients, preparation steps, required tools, cuisine, etc.
+
++ Create the backend code and frontend form(s) to allow users to add new recipes to the site, edit them and delete them.
+
++ Create the backend and frontend functionality for users to locate recipes based on the recipe's fields. You may choose to create a full search functionality, or just a directory of recipes.
+
++ Provide results in a manner that is visually appealing and user friendly.
+
++ Build upon the required tools field to promote your brand of kitchen tools (e.g. oven, pressure cooker, etc…).
+
++ Create a dashboard to provide some statistics about all the recipes.
 
 
 ### User Stories
 
 #### Being the primary user I expect the following;
 
-+ Being able to share my recipies with a larger community and also be able to expand my knowledge from other users submissions.
++ Being able to share my recipies with a larger community.
++ also be able to expand my knowledge from other users submissions.
 
 
 #### As the owner I want the following from my site;
@@ -95,6 +136,7 @@ This project has the folowing requirements:
 + To create a repository of recipies from the data submitted by many different people.
 + I can add my own recipies to one location and make sure i can refer back to them later.
 + See if recipies submitted can be improved by users suggestions.
++ Promote and sell a brand of cooking tools.
 
 #### As a developer I am looking to provide the following;
 
