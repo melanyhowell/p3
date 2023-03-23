@@ -1,108 +1,249 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
 `python3 -m http.server`
+# Title - 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+I have created a website [site](website address) 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+![multi-device](assets/readmeimages/multiscreen.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Live Site
+[site](website address)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Repository
+[repository address](repository address)
 
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
 
-Happy coding!
+## Contents
++ [Project Requirements](#project-requirements)
++ [Objectives](#Objectives)
++ [Target Audience](#target-audience)
++ [User Experience: UX](#user-exerience-ux)
+    + [Initial Concept](#initial-concept)
+    + [User Stories](#user-stories)
+    + [Wireframes](#wireframes)
+        + [Home Page](#home-page)
+        + [Product Page](#productservices-page)
+        + [Contact Form Page](#contact-form-page)
+        + [Form Confirmation Page](#form-confirmation-page)
+    + [Site Structure](#site-structure)
+    + [Colour Pallette](#colour-pallette)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
++ [Features](#features)
+    + [Included Features](#included-features)
+        + [Header](#header)
+        + [Home](#home)
+        + [Footer](#footer)
+        + [Product Page](#product-page)
+            + [Product Information](#product-information)
+        + [Contact Page](#contact-page)
+            + [Contact Form](#contact-form)
+            + [Form Confirmation](#form-confirmation)
+        + [Future Features](#future-features)
+    + [JavaScript Process](#javascript-game-process)    
+    + [Technologies Used](#technologies-used)
+    + [Testing](#testing)
+    + [Deployment](#deployment)
+    + [Sources](#sources)
+    + [Credits & Acknowledgements](Credits)
+        + [Content](#content)
+        + [Media](#media)
+        + [Code](#code)
+
+
+---
+## Project Requirements
+
+Main technologies need to be used
+    - 
+
+Mandatory Requirements
+    - 
+
+---
+## Objectives
+This project has the folowing requirements:
++ 
+
+## Target Audience 
+
++ 
+
+
+---
+## User Exerience: UX
+
+### Initial Concept
+
+
+
+### User Stories
+
+#### Being the primary user I expect the following;
+
++ 
+
+
+#### As the owner I want the following from my site;
+
++ 
+
+#### As a developer I am looking to provide the following;
+
++ No accesibility issues
+
+
+### Wireframes
+
+I created my Wireframes using [Balsamiq](https://balsamiq.com). 
+
+#### Home/Game Page
+
+![Home/Game Page Wireframes](assets/image/location)
+
+#### Page 2
+
+![Contact Page Wireframes](assets/image/location)
+
+#### Page 3
+
+![Page 3](assets/image/location)
+
+
+### Site Structure
+
+My site consists of 
+### Colour Pallette
+
+I wanted my site to represent an 
+
+### Typography
+
+The fonts I selected were;
++ Bungee 
+That have been imported from [Google Fonts](https://fonts.google.com/).
+I chose these fonts due
+
+### Imagery
+
+Style and statements i wanted to make
+---
+
+## Features
+
+When creating this site I wanted to ensure the following features where kept consistent.
+
+### Included Features
+
+#### Header
+
++ Logo - 
++ Navbar 
+
+![Header](/assets/readmeimages/header.png)
+
+#### Home
+
++ 
+
+![Home](/assets/readmeimages/homepage.png)
+
+#### Footer
+
++ Social Media & Contact Links for Owners and Developer
+
+![Footer](/assets/readmeimages/footer.png)
+
+#### Contact Page
+
+![Contact Page](/assets/readmeimages/contact.png)
+
+#### Contact Page
+
++ Contact Form
+    + Name
+    + Email
+    + Message Area
+    + submit button
+    + Form confirmation after form sucessfully submitted
+
+### Future Features
+
++ 
+
+
+---
+
+## Thought Process
+
+### 
+
+---
+
+
+## Technologies Used
+
++ [Python](https://www.python.org/)
++ [HTML5](https://html.spec.whatwg.org/)
++ [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
++ [JavaScript](https://www.javascript.com/)
++ [Balsamic](https://balsamiq.com/wireframes/)
++ [Google Fonts](https://fonts.google.com/)
++ [Font Awesome](https://fontawesome.com/)
++ [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
++ [GitHub](https://github.com/)
++ [GitPod](https://www.gitpod.io/)
++ [Multi Device Mock Up Generator](https://techsini.com/multi-mockup/)
++ [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+
+---
+
+## Testing
+
+
+Due to the large amount of testing required i had to colate the reults and processes on a seperate page please [click here](testing.md) 
+
+## Deployment
+
+The site was deployed to GitHub pages.
+
++ Go To your Git Hub Repository
++ Under Repository Name, click on "Settings" 
+![setting image](/assets/readme-images/Repository%20Settings.png)
++ Click on "Pages" options on the left hand side of the screen
+![Page selection](/assets/readme-images/pagessettings.png)
++ under "build & deployment, & under "source" select "main Branch".
++ and then select publishing source "(root)
++ click Save
++ this will then give you your Git Pages address
+![GitHub Pages](/assets/readme-images/livesiteaddress.png)
+
+
+## Sources
+
+### Media
+
+Obtained from the free photo sites such as 
++ [Pexels](https://www.pexels.com/) for Background Image
++ 
+
+### Code
+
++ with issues i found I used the following references;
+    + 
+
+
+## Credits & Acknowlegements
+
++ Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
++ I looked up on youtube for some tutorial help with javascript and the memory games and used the following for reference - (https://github.com/code-sketch/memory-game/)
++ https://www.youtube.com/@CodingArtist was a great help especially when getting stuck on time value issues and helping bug proof the game so only two cards can be picked at a time and an already matched card can't be turned back over if clicked again.
+
+
+Melany Howell 2023
