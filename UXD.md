@@ -23,7 +23,7 @@ User Centric Design process using 5 planes of UX
   + How will our information be represented, and how will the user navigate to the infomration and the features?
   + How do you navigate through the information and features?
   + How will the content relate to each other, what relationships will the content have?
-  + What Has priority and lower priority and based on this where do we position the content?
+  + What has priority and lower priority and based on this where do we position the content?
 + Surface Plane
   + What will the finished product look like?
   + Colours, Typography, images, design elements etc?
