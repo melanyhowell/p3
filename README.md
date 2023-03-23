@@ -2,7 +2,7 @@
 # Title - 
 
 
-I have created a website [site](website address) 
+I have created a full-stack website [site](website address) that allows my users to manage a common dataset in the form of recipies to cookbook domain.
 
 
 
@@ -87,12 +87,14 @@ This project has the folowing requirements:
 
 #### Being the primary user I expect the following;
 
-+ 
++ Being able to share my recipies with a larger community and also be able to expand my knowledge from other users submissions.
 
 
 #### As the owner I want the following from my site;
 
-+ 
++ To create a repository of recipies from the data submitted by many different people.
++ I can add my own recipies to one location and make sure i can refer back to them later.
++ See if recipies submitted can be improved by users suggestions.
 
 #### As a developer I am looking to provide the following;
 
@@ -235,7 +237,7 @@ Obtained from the free photo sites such as
 
 ### Code
 
-+ with issues i found I used the following references;
++ with issues I found I used the following references;
     + 
 
 
