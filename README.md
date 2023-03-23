@@ -1,76 +1,71 @@
-`python3 -m http.server`
-# Title - 
-
+<!---`python3 -m http.server`--->
+# Title -
 
 I have created a full-stack website [site](website address) that allows my users to manage a common dataset in the form of recipies to cookbook domain.
-
-
 
 ![multi-device](assets/readmeimages/multiscreen.png)
 
 ## Live Site
+
 [site](website address)
 
-
-
 ## Repository
-[repository address](repository address)
 
+[repository address](repository address)
 
 ---
 
 ## Contents
+
 + [Project Requirements](#project-requirements)
 + [Objectives](#Objectives)
 + [Target Audience](#target-audience)
 + [User Experience: UX](#user-exerience-ux)
-    + [Initial Concept](#initial-concept)
-    + [User Stories](#user-stories)
-    + [Wireframes](#wireframes)
-        + [Home Page](#home-page)
-        + [Product Page](#productservices-page)
-        + [Contact Form Page](#contact-form-page)
-        + [Form Confirmation Page](#form-confirmation-page)
+  + [Initial Concept](#initial-concept)
+  + [User Stories](#user-stories)
+  + [Wireframes](#wireframes)
+    + [Home Page](#home-page)
+    + [Product Page](#productservices-page)
+    + [Contact Form Page](#contact-form-page)
+    + [Form Confirmation Page](#form-confirmation-page)
     + [Site Structure](#site-structure)
     + [Colour Pallette](#colour-pallette)
     + [Typography](#typography)
     + [Imagery](#imagery)
 + [Features](#features)
-    + [Included Features](#included-features)
-        + [Header](#header)
-        + [Home](#home)
-        + [Footer](#footer)
-        + [Product Page](#product-page)
-            + [Product Information](#product-information)
-        + [Contact Page](#contact-page)
-            + [Contact Form](#contact-form)
-            + [Form Confirmation](#form-confirmation)
-        + [Future Features](#future-features)
-    + [JavaScript Process](#javascript-game-process)    
-    + [Technologies Used](#technologies-used)
-    + [Testing](#testing)
-    + [Deployment](#deployment)
-    + [Sources](#sources)
-    + [Credits & Acknowledgements](Credits)
-        + [Content](#content)
-        + [Media](#media)
-        + [Code](#code)
-
+  + [Included Features](#included-features)
+    + [Header](#header)
+    + [Home](#home)
+    + [Footer](#footer)
+    + [Product Page](#product-page)
+        + [Product Information](#product-information)
+    + [Contact Page](#contact-page)
+      + [Contact Form](#contact-form)
+        + [Form Confirmation](#form-confirmation)
+    + [Future Features](#future-features)
++ [JavaScript Process](#javascript-game-process)    
++ [Technologies Used](#technologies-used)
++ [Testing](#testing)
++ [Deployment](#deployment)
++ [Sources](#sources)
++ [Credits & Acknowledgements](Credits)
+  + [Content](#content)
+  + [Media](#media)
+  + [Code](#code)
 
 ---
+
 ## Project Requirements
 
 Main technologies need to be used
+
 + HTML
 + CSS
 + JavaScript
 + Python+Flask
 + PostgreSQL
-
 + Additional Libraries and External APIs
-    - tech library example
-
-
+  + tech library example
 
 Mandatory Requirements
 
@@ -92,24 +87,26 @@ Mandatory Requirements
 
 + Deployment: Deploy the final version of your code to a hosting platform such as Heroku.
 
-
-
 ---
+
 ## Objectives
+
 This project has the folowing requirements:
-+ 
 
-## Target Audience 
++
 
-+ 
+## Target Audience
 
++
 
 ---
+
 ## User Exerience: UX
 
 ### Initial Concept
 
 #### Features to include
+
 + Create a web application that allows users to store and easily access cooking recipes. Recipes would include fields such as ingredients, preparation steps, required tools, cuisine, etc.
 
 + Create the backend code and frontend form(s) to allow users to add new recipes to the site, edit them and delete them.
@@ -122,7 +119,6 @@ This project has the folowing requirements:
 
 + Create a dashboard to provide some statistics about all the recipes.
 
-
 ### User Stories
 
 #### Being the primary user I expect the following;
@@ -130,22 +126,20 @@ This project has the folowing requirements:
 + Being able to share my recipies with a larger community.
 + also be able to expand my knowledge from other users submissions.
 
-
-#### As the owner I want the following from my site;
+#### As the owner I want the following from my site -
 
 + To create a repository of recipies from the data submitted by many different people.
 + I can add my own recipies to one location and make sure i can refer back to them later.
 + See if recipies submitted can be improved by users suggestions.
 + Promote and sell a brand of cooking tools.
 
-#### As a developer I am looking to provide the following;
+#### As a developer I am looking to provide the following -
 
 + No accesibility issues
 
-
 ### Wireframes
 
-I created my Wireframes using [Balsamiq](https://balsamiq.com). 
+I created my Wireframes using [Balsamiq](https://balsamiq.com).
 
 #### Home/Game Page
 
@@ -159,24 +153,26 @@ I created my Wireframes using [Balsamiq](https://balsamiq.com).
 
 ![Page 3](assets/image/location)
 
-
 ### Site Structure
 
-My site consists of 
+My site consists of
+
 ### Colour Pallette
 
-I wanted my site to represent an 
+I wanted my site to represent an
 
 ### Typography
 
 The fonts I selected were;
-+ Bungee 
+
++ Bungee
 That have been imported from [Google Fonts](https://fonts.google.com/).
 I chose these fonts due
 
 ### Imagery
 
-Style and statements i wanted to make
+Style and statements I wanted to make
+
 ---
 
 ## Features
@@ -187,14 +183,14 @@ When creating this site I wanted to ensure the following features where kept con
 
 #### Header
 
-+ Logo - 
-+ Navbar 
++ Logo -
++ Navbar -
 
 ![Header](/assets/readmeimages/header.png)
 
 #### Home
 
-+ 
++
 
 ![Home](/assets/readmeimages/homepage.png)
 
@@ -208,28 +204,24 @@ When creating this site I wanted to ensure the following features where kept con
 
 ![Contact Page](/assets/readmeimages/contact.png)
 
-#### Contact Page
-
 + Contact Form
-    + Name
-    + Email
-    + Message Area
-    + submit button
-    + Form confirmation after form sucessfully submitted
+  + Name
+  + Email
+  + Message Area
+  + submit button
+  + Form confirmation after form sucessfully submitted
 
 ### Future Features
 
-+ 
-
++
 
 ---
 
 ## Thought Process
 
-### 
+### Thought 1
 
 ---
-
 
 ## Technologies Used
 
@@ -250,15 +242,14 @@ When creating this site I wanted to ensure the following features where kept con
 
 ## Testing
 
-
-Due to the large amount of testing required i had to colate the reults and processes on a seperate page please [click here](testing.md) 
+Due to the large amount of testing required i had to colate the reults and processes on a seperate page please [click here](testing.md)
 
 ## Deployment
 
 The site was deployed to GitHub pages.
 
 + Go To your Git Hub Repository
-+ Under Repository Name, click on "Settings" 
++ Under Repository Name, click on "Settings"
 ![setting image](/assets/readme-images/Repository%20Settings.png)
 + Click on "Pages" options on the left hand side of the screen
 ![Page selection](/assets/readme-images/pagessettings.png)
@@ -268,26 +259,21 @@ The site was deployed to GitHub pages.
 + this will then give you your Git Pages address
 ![GitHub Pages](/assets/readme-images/livesiteaddress.png)
 
-
 ## Sources
 
 ### Media
 
-Obtained from the free photo sites such as 
+Obtained from the free photo sites such as;
+
 + [Pexels](https://www.pexels.com/) for Background Image
-+ 
++
 
 ### Code
 
 + with issues I found I used the following references;
-    + 
-
 
 ## Credits & Acknowlegements
 
 + Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
-+ I looked up on youtube for some tutorial help with javascript and the memory games and used the following for reference - (https://github.com/code-sketch/memory-game/)
-+ https://www.youtube.com/@CodingArtist was a great help especially when getting stuck on time value issues and helping bug proof the game so only two cards can be picked at a time and an already matched card can't be turned back over if clicked again.
 
-
-Melany Howell 2023
+Melany Howell 2023.
