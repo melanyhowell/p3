@@ -141,7 +141,7 @@ This project has the folowing requirements:
 
 I created my Wireframes using [Balsamiq](https://balsamiq.com).
 
-#### Home/Game Page
+#### Home
 
 ![Home/Game Page Wireframes](assets/image/location)
 
@@ -153,7 +153,7 @@ I created my Wireframes using [Balsamiq](https://balsamiq.com).
 
 ![Page 3](assets/image/location)
 
-### Site Structure
+### Site Visuals - Surface Plane of UXD
 
 My site consists of
 
