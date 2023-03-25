@@ -15,8 +15,33 @@ User Centric Design process using 5 planes of UX
 + Strategy Plane
   + What are you aiming to acheieve and for whom?
     + Business Goals, Initial Idea, Why I want to build the product in the first place.
+    + Business goals
+      + To advertise cooking tools
+      + Expand the directory of recipes 
+      + Increase vistors and contributions to the site
 + Scope Plane
   + Which features, based on information from strategy plane, do you want to include in your design?
+  + Features to include;
+    + Home Page - introduction to the site
+    + Links to tools used in recpies made by cooks
+    + Recipies Page 
+      + Recipies shown within certain categories (vegetraian, Meat, Fish, under 30 mins, etc...)
+      + Option to create/add own recipies
+      + In Recipie Page have the following features;
+        + Prep Time
+        + Cook Time
+        + Appliances Required
+        + Cooking Temperatures
+        + Ingredients
+        + Stages
+        + Add you own photos of your version of the recipie
+        + Suggested Combinations such as drinks, deserts etc
+        + Links to socials to share
+        + Suggestions that contributors can add to maybe make the recipe better
+        + Rating System
+    + Sign in/Add own recipies
+    + Links to shop or products
+    + Contact Page
 + Structure Plane
   + How is the information structured and how is it logically grouped, the features, the elements, the data, the information?
 + Skeleton Plane
