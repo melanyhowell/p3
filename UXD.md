@@ -8,9 +8,8 @@ User Centric Design process using 5 planes of UX is what I will focus on to ensu
 
 ---
 
-## Strategy Plane
+## The Idea, Objectives and Users needs (Strategy Plane)
 
-What are you aiming to acheieve and for whom?
 
 ### Initial Idea
 
@@ -39,70 +38,120 @@ As a developer I am looking to provide the following -
 
 ---
 
-## Scope Plane
+## How am I going to provide users with what they want (Scope Plane)
 
-+ Which features, based on information from strategy plane, do you want to include in your design?
-  + The Creation of a web application that stores and allows access to users recipes, while also allowing for editing of the recipie by the recipie creator and suggestions by other users.
-  + Fields within the recipes to make them easily understandable and comparable to other recipies on site include, ingredients, preperation time, cook time, tools, cooking steps.
-  + Create the backend code and frontend form(s) to allow users to add new recipes to the site, edit them and delete them.
-  + Create the backend and frontend functionality for users to locate recipes based on the recipe's fields. You may choose to create a full search functionality, or just a directory of recipes.
-  + Provide results in a manner that is visually appealing and user friendly.
-  + Build upon the required tools field to promote your brand of kitchen tools (e.g. oven, pressure cooker, etc…).
-  + Create a dashboard to provide some statistics about all the recipes.
+Which features, based on information from strategy plane, do you want to include in your design?
+
++ The Creation of a web application that stores and allows access to users recipes, while also allowing for editing of the recipie by the recipie creator and suggestions by other users.
++ Fields within the recipes to make them easily understandable and comparable to other recipies on site include, ingredients, preperation time, cook time, tools, cooking steps.
++ Create the backend code and frontend form(s) to allow users to add new recipes to the site, edit them and delete them.
++ Create a search function using the backend and frontend functionality for users to locate recipes based on selected recipe's fields such as ingredients.
++ Easy to read and intuitive design to allow easy navigation of an ever increasing recipe directory
++ With-in the tools section include relevant detail and links to promote sales of the my kitchen tools.
++ Look into incorporating a scoring system for recipies that users can rate and review tried recipies
 
 ---
 
-## Structure Plane
+## Interaction of features (Structure Plane)
 
-+ How is the information structured and how is it logically grouped, the features, the elements, the data, the information?
-  + Recipes can be searched by using the keyword or title from the recipe such as from the ingredients list and also other keywords included when creating the recipe such as vegetarian, pasta etc.
-  + Home Page - introduction to the site
-    + Links to the tools used in the recpies
-  + Recipes Page
-    + Recipes shown within certain categories (vegetraian, Meat, Fish, under 30 mins, etc...)
-    + Categories
-      + Vegetarian
-      + Meat
-      + Fish
-      + Under 30 mins
-      + Best Rated
-      + New Recipes
+How is the information structured and how is it logically grouped, the features, the elements, the data, the information?
+
++ Recipes can be searched by using the keyword or title from the recipe such as from the ingredients list and also other keywords included when creating the recipe such as vegetarian, pasta etc.
++ Home Page - introduction to the site
+  + Links to the tools used in the recpies
++ Recipes Page
+  + Recipes shown within certain categories (vegetraian, Meat, Fish, under 30 mins, etc...)
+  + Categories;
+    + Vegetarian
+    + Meat
+    + Fish
+    + Under 30 mins
+    + Best Rated
+    + New Recipes
   + Option to create/add own recipes
   + Search Option
-  + In single recipie page have the following features;
-        + Prep Time
-        + Cook Time
-        + Appliances Required
-        + Cooking Temperatures
-        + Ingredients
-        + Stages
-        + Add you own photos of your version of the recipie
-        + Suggested Combinations such as drinks, deserts etc
-        + Links to socials to share
-        + Suggestions that contributors can add to maybe make the recipe better
-        + Rating System
-  + Sign in/Add own recipies
-  + Links to shop or products
-  + Contact ans socials Page
++ Sign in/Add own recipies Page
++ Links to shop or products Page
++ Contact and socials Page
++ With-in the individual recipe's have the following features;
+  + Prep Time
+  + Cook Time
+  + Appliances Required
+  + Cooking Temperatures
+  + Ingredients
+  + Stages
+  + Add you own photos of your version of the recipie
+  + Suggested Combinations such as drinks, deserts etc
+  + Links to socials to share
+  + Suggestions that contributors can add to maybe make the recipe better
+  + Rating System
 
 ---
 
-## Skeleton Plane
+## Inteface and Navigation Design (Skeleton Plane)
 
-+ How will our information be represented, and how will the user navigate to the infomration and the features?
-    Navigation throughout the site will be from the Nav Bar.
-+ How do you navigate through the information and features?
-    From within the recipie page you can either click on one of the categories represented or search for a specific recipie
-+ How will the content relate to each other, what relationships will the content have?
-+ What has priority and lower priority and based on this where do we position the content?
+### How will our information be represented, and how will the user navigate to the infomration and the features?
+
+Navigation throughout the site will be from the Nav Bar accesible in the header of every page.
+
+#### Header
+
++ Logo -
++ Navbar -
+
+![Header](/assets/readmeimages/header.png)
+
+### How do you navigate through the information and features?
+
+From within the recipie page you can either click on one of the categories represented or search for a specific recipe
+
+### How will the content relate to each other, what relationships will the content have?
+
+### What has priority and lower priority and based on this where do we position the content?
+
+I focused on a simple priority progression to allow for easy manuverability throughout the site, where you can go from Home, to the main recipe repository to a single recipe.
+
+Priority was also given to help visulaise how a recipe might be followed in reality, for exaple you'll need to know what need preheating and prepared first and the stages that follow that to ensure the recipe is followed correctly and the users desired result is acheived at the end of it.
 
 ---
 
-## Surface Plane
+## Site Visuals (Surface Plane) - What Will the finished product look like?
 
-+ What will the finished product look like?
-  + Colours
-  + Typography
-  + Images
-  + Design elements
-  + Wireframes
+### Wireframes
+
+I created my Wireframes using [Balsamiq](https://balsamiq.com).
+
+#### Home Page
+
+![Home/Game Page Wireframes](assets/image/location)
+
+#### Recipie Repository Page
+
+#### Sign In Page
+
+#### Products Page
+
+#### Contact & Socials Page
+
+![Contact Page Wireframes](assets/image/location)
+
+### Colour Pallete
+
+I wanted my site to represent an
+
+### Typography
+
+The fonts I selected were;
+
++ Bungee
+
+That have been imported from [Google Fonts](https://fonts.google.com/).
+I chose these fonts due
+
+### Imagery
+
+Style and statements I wanted to make
+
+### Design elements
+
+I used design elements such as
