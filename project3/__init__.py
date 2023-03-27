@@ -11,4 +11,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL")
 
 db = SQLAlchemy(app)
 
-from p3 import routes  # noqa
+from project3 import routes  # noqa

@@ -1,5 +1,5 @@
 import os
-from p3 import app
+from project3 import app
 
 
 if __name__ == "__main__":
