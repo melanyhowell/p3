@@ -1,7 +1,7 @@
 from project3 import db
 
 recipe_category = db.Table('recipe_category',
-                        db.Column('recipe_id', db.Integer, db.ForeignKey('recipe.id')),
+                        db.Column('recipe_id', db.Integer, db.ForeignKey('recipe.id')),  # noqa
                         db.Column('category_id', db.Integer, db.ForeginKey('category.id'))
                            )
 
