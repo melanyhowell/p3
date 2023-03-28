@@ -1,5 +1,6 @@
 from munch import db
 
+
 recipe_category = db.Table('recipe_category',
                         db.Column('recipe_id', db.Integer, db.ForeignKey('recipe.id')),
                         db.Column('category_id', db.Integer, db.ForeignKey('category.id'))
@@ -19,7 +20,7 @@ class Category(db.Model):
 class Recipe(db.Model):
     # schema for the Recipe model
     id = db.Column(db.Integer, primary_key=True)
-    recipe_name = db.Column(db.String(75), unique=True, nullable=False)
+    recipe_name = db.Column(db.String(55), unique=True, nullable=False)
     recipe_description = db.Column(db.Text, nullable=False)
     recipe_cooktemp = db.Column(db.Integer, nullable=False)
     recipe_preptime = db.Column(db.Integer, nullable=False)
