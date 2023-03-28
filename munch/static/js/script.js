@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 // recipe form drop down selction
-  document.addEventListener('DOMContentLoaded', function() {
-    let category_name_selector = document.querySelectorAll('.dropdown-trigger');
-    M.Dropdown.init(category_name_selector);
-  });
+//  document.addEventListener('DOMContentLoaded', function() {
+//    let category_name_selector = document.querySelectorAll('.dropdown-trigger');
+//    M.Dropdown.init(category_name_selector);
+//  });
