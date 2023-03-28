@@ -19,7 +19,33 @@
                 <label for="recipe_description">Recipe Description</label>
             </div>
             <div class="input-field col s12">
-                <!--image-->
+                <!--recipe prep time-->
+                <input id="recipe_prep_time" name="recipe_prep_time" type="number" required>
+                <label for="recipe_prep_time">Recipe Prep Time (in Minutes)</label>
+            </div>
+            <div class="input-field col s12">
+                <!--recipe cook time-->
+                <input id="recipe_cook_time" name="recipe_cook_time" type="number" required>
+                <label for="recipe_cook_time">Recipe Cook Time (in Minutes)</label>
+            </div>
+            <div class="input-field col s12">
+                <!--recipe ingredients input-->
+                <input id="recipe_ingredients" name="recipe_ingredients" type="text" required>
+                <label for="recipe_ingredients">Recipe Ingredients</label>
+            </div>
+            <div class="input-field col s12">
+                <!--recipe categories input not working-->
+                <label for="category_name">Categories</label>
+                <p>Select a maximum of 2 categories for your recipe</p>
+                <select id="category_name" name="category_name">
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="Meat">Meat</option>
+                    <option value="Fish">Fish</option>
+                    <option value="under_30mins">Under 30 Mins</option>
+                </select>
+            </div>
+            <div class="input-field col s12">
+                <!--image upload-->
                 <br>
                 <p>If you want to add a photo click "Choose File" button to select a photo</p>
                 <input id="recipePhoto" name="recipe_photo"type="file" required>
