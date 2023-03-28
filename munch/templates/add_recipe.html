@@ -5,20 +5,21 @@
 
 <!--set up for form to add recipe-->
 <div class ="row card-panel grey lighten-2">
-    <div class="formy">
+    <form class="formy col s12 center-align">
         <!--Recipe title/name-->
         <div class="cardy_a">
             <div>
                 <!--functions-->
+                <input id="recipe_name" name="recipe_name" maxlength="55" type="text" required>
             </div>
         </div>
         <!--save/submit button-->
-        <div class="you_shall_pass">
-            <button>
+        <div class="you_shall_pass col s12 center-align">
+            <button type="submit" class="btn waves-effect orange lighten-1">
                 Add Recipe <i class="fas fa-kitchen-set"></i>
             </button>
         </div>
-    </div>
+    </form>
 </div>
 
 {% endblock %}
