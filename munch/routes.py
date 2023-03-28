@@ -1,11 +1,11 @@
-from flask import render_template
+from flask import render_template, request, redirect, url_for
 from munch import app, db
 from munch.models import Category, Recipe
 
 
 @app.route("/")
 def home():
-    return render_template("add_recipe.html")
+    return render_template("home.html")
 
 
 @app.route("/recipes")
@@ -15,4 +15,11 @@ def recipes():
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
+    if requested.method == "POST":
+        recipe = Recipe(recipe_name=request.form.get("recipe_name"))
+        db.session.add(recipe)
+        db.session.commit()
+        return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
+
+
