@@ -1,9 +1,9 @@
 from munch import db
 
 
-recipe_category = db.Table('recipe_category',
-                        db.Column('recipe_id', db.Integer, db.ForeignKey('recipe.id')),
-                        db.Column('category_id', db.Integer, db.ForeignKey('category.id'))
+recipe_category = db.Table("recipe_category",
+                           db.Column("recipe_id", db.Integer, db.ForeignKey("recipe.id")),
+                           db.Column("category_id", db.Integer, db.ForeignKey("category.id"))
                            )
 
 
@@ -26,7 +26,7 @@ class Recipe(db.Model):
     recipe_preptime = db.Column(db.Integer, nullable=False)
     recipe_cooktime = db.Column(db.Integer, nullable=False)
     recipe_ingredients = db.Column(db.String, nullable=False)
-    categories = db.relationship('Categorgy', secondary=recipe_category, backref='recipes')
+    categories = db.relationship("Categorgy", secondary=recipe_category, backref="recipes")
 
     def __repr__(self):
         return self.recipe_name
