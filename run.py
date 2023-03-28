@@ -1,5 +1,5 @@
 import os
-from project3 import app
+from munch import app
 
 
 if __name__ == "__main__":

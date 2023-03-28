@@ -1,4 +1,4 @@
-from project3 import db
+from munch import db
 
 recipe_category = db.Table('recipe_category',
                         db.Column('recipe_id', db.Integer, db.ForeignKey('recipe.id')),
