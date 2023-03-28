@@ -5,12 +5,25 @@
 
 <!--set up for form to add recipe-->
 <div class ="row card-panel grey lighten-2">
-    <form class="formy col s12 center-align">
-        <!--Recipe title/name-->
-        <div class="cardy_a">
-            <div>
-                <!--functions-->
+    <form class="formy col s12 center-align" method="POST" action="">
+        <!--Recipe details-->
+        <div class="cardy_a row">
+            <div class="input-field col s12">
+                <!--recipe name input-->
                 <input id="recipe_name" name="recipe_name" maxlength="55" type="text" required>
+                <label for="recipe_name">Recipe Name</label>
+            </div>
+            <div class="input-field col s12">
+                <!--recipe description-->
+                <input id="recipe_description" name="recipe_description" minlength="15" maxlength="150" type="text" required>
+                <label for="recipe_description">Recipe Description</label>
+            </div>
+            <div class="input-field col s12">
+                <!--image-->
+                <br>
+                <p>If you want to add a photo click "Choose File" button to select a photo</p>
+                <input id="recipePhoto" name="recipe_photo"type="file" required>
+                <label for="recipe_photo">Recipe Photo</label>
             </div>
         </div>
         <!--save/submit button-->
