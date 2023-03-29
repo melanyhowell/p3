@@ -1,37 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="text-blue-grey center-align" >Create Recipe</h3>
+<h3 class="text-blue-grey center-align" >Edit Recipe</h3>
 
 <!--set up for form to add recipe-->
 <div class ="row card-panel grey lighten-2">
-    <form class="formy col s12 center-align" method="POST" action="{{ url_for('add_recipe') }}">
+    <form class="formy col s12 center-align" method="POST" action="{{ url_for('edit_recipe', recipe_id=recipe.id) }}">
         <!--Recipe details-->
         <div class="cardy_a row">
             <div class="input-field col s12">
                 <!--recipe name input-->
-                <input id="recipe_name" name="recipe_name" maxlength="55" type="text" required>
+                <input id="recipe_name" name="recipe_name" value="{{ recipe.recipe_name }}" maxlength="55" type="text" required>
                 <label for="recipe_name">Recipe Name</label>
             </div>
             <!--recipe description-->
             <div class="input-field col s12">
-                <input id="recipe_description" name="recipe_description" minlength="15" maxlength="150" type="text" required>
+                <input id="recipe_description" name="recipe_description" value="{{ recipe.recipe_description }}" minlength="15" maxlength="150" type="text" required>
                 <label for="recipe_description">Recipe Description</label>
             </div>
             <!--recipe cook temp-->
             <div class="input-field col s12">
-                <input id="recipe_cook_temp" name="recipe_cook_temp" type="number" required>
+                <input id="recipe_cook_temp" name="recipe_cook_temp" value="{{ recipe.recipe_cook_temp }}" type="number" required>
                 <label for="recipe_cook_temp">Recipe Cook Temp (in Celcius Fan assisted)</label>
             </div>
             <!--recipe prep time-->
             <div class="input-field col s12">
-                <input id="recipe_prep_time" name="recipe_prep_time" type="number" required>
+                <input id="recipe_prep_time" name="recipe_prep_time" value="{{ recipe.recipe_prep_time }}" type="number" required>
                 <label for="recipe_prep_time">Recipe Prep Time (in Minutes)</label>
             </div>
             <!--recipe cook time-->
             <div class="input-field col s12">
                 
-                <input id="recipe_cook_time" name="recipe_cook_time" type="number" required>
+                <input id="recipe_cook_time" name="recipe_cook_time" value="{{ recipe.recipe_cook_time }}" type="number" required>
                 <label for="recipe_cook_time">Recipe Cook Time (in Minutes)</label>
             </div>
             <!--<div class="input-field col s12">
@@ -100,7 +100,7 @@
         <!--save/submit button-->
         <div class="you_shall_pass col s12 center-align">
             <button type="submit" class="btn waves-effect orange lighten-1">
-                Add Recipe <i class="fas fa-kitchen-set"></i>
+                Edit Recipe <i class="fas fa-pot-food"></i>
             </button>
         </div>
     </form>

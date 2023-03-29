@@ -28,3 +28,17 @@ def add_recipe():
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
+
+
+@app.route("/edit_recipe/<int:recipe_id>", methods=["GET", "POST"])
+def edit_recipe(recipe_id):
+    recipe = Recipe.query.get_or_404(recipe_id)
+    if request.method == "POST":
+        recipe.recipe_name = request.form.get("recipe_name")
+        recipe.recipe_description = request.form.get("recipe_description")
+        recipe.recipe_cook_temp = request.form.get("recipe_cook_temp")
+        recipe.recipe_prep_time = request.form.get("recipe_prep_time")
+        recipe.recipe_cook_time = request.form.get("recipe_cook_time")
+        db.session.commit()
+        return redirect(url_for("recipes"))
+    return render_template("edit_recipe.html", recipe=recipe)
