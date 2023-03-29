@@ -24,10 +24,10 @@ class Recipe(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     recipe_name = db.Column(db.String(55), unique=True, nullable=False)
     recipe_description = db.Column(db.Text, nullable=False)
-    recipe_cooktemp = db.Column(db.Integer, nullable=False)
-    recipe_preptime = db.Column(db.Integer, nullable=False)
-    recipe_cooktime = db.Column(db.Integer, nullable=False)
-    recipe_ingredients = db.Column(db.String, nullable=False)
+    recipe_cook_temp = db.Column(db.Integer, nullable=False)
+    recipe_prep_time = db.Column(db.Integer, nullable=False)
+    recipe_cook_time = db.Column(db.Integer, nullable=False)
+    # recipe_ingredients = db.Column(db.String, nullable=False)
     categories = db.relationship("Category", secondary=recipe_category, backref="recipes")
 
     def __repr__(self):

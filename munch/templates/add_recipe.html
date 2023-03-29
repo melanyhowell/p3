@@ -13,28 +13,34 @@
                 <input id="recipe_name" name="recipe_name" maxlength="55" type="text" required>
                 <label for="recipe_name">Recipe Name</label>
             </div>
+            <!--recipe description-->
             <div class="input-field col s12">
-                <!--recipe description-->
                 <input id="recipe_description" name="recipe_description" minlength="15" maxlength="150" type="text" required>
                 <label for="recipe_description">Recipe Description</label>
             </div>
+            <!--recipe cook temp-->
             <div class="input-field col s12">
-                <!--recipe prep time-->
+                <input id="recipe_cook_temp" name="recipe_cook_temp" type="number" required>
+                <label for="recipe_cook_temp">Recipe Cook Temp (in Celcius Fan assisted)</label>
+            </div>
+            <!--recipe prep time-->
+            <div class="input-field col s12">
                 <input id="recipe_prep_time" name="recipe_prep_time" type="number" required>
                 <label for="recipe_prep_time">Recipe Prep Time (in Minutes)</label>
             </div>
+            <!--recipe cook time-->
             <div class="input-field col s12">
-                <!--recipe cook time-->
+                
                 <input id="recipe_cook_time" name="recipe_cook_time" type="number" required>
                 <label for="recipe_cook_time">Recipe Cook Time (in Minutes)</label>
             </div>
-            <div class="input-field col s12">
-                <!--recipe ingredients input-->
+            <!--<div class="input-field col s12">
+                
                 <input id="recipe_ingredients" name="recipe_ingredients" type="text" required>
                 <label for="recipe_ingredients">Recipe Ingredients</label>
-            </div>
-            <div class="input-field col s12">
-                <!--recipe categories input not working-->
+            </div>-->
+            <!--<div class="input-field col s12">
+                
                 <label for="category_name">Categories</label>
                 <p>Select a maximum of 2 categories for your recipe</p>
                 <select id="category_name" name="category_name">
@@ -43,9 +49,9 @@
                     <option value="Fish">Fish</option>
                     <option value="under_30mins">Under 30 Mins</option>
                 </select>
-            </div>
+            </div> -->
             <!--recipe stages-->
-            <p>Recipe Stages</p>
+            <!--<p>Recipe Stages</p>
             <div class="input-field col s12">
                 <label for="recipe_stages_1">Recipe Stage 1</label>
                 <input id="recipe_stages_1" name="recipe_stages_1" type="text" required>
@@ -78,19 +84,19 @@
                 <label for="recipe_stages_8">Recipe Stage 8</label>
                 <input id="recipe_stages_8" name="recipe_stages_8" type="text">
             </div>
-        </div>
-            <div class="input-field col s12">
-                <!--image upload-->
+        </div>-->
+            <!--<div class="input-field col s12">
+                
                 <br>
                 <p>If you want to add a photo click "Choose File" button to select a photo</p>
-                <input id="recipePhoto" name="recipe_photo"type="file" required>
+                <input id="recipePhoto" name="recipe_photo"type="file">
                 <label for="recipe_photo">Recipe Photo</label>
-            </div>
-            <div class="input-field col s12">
-                <!--userid on who created recipe-->
+            </div>-->
+            <!--<div class="input-field col s12">
+               
                 <input id="creator_id" name="creator_id" type="text" disabled>
                 <label for="creator_id">Creator ID</label>
-            </div>
+            </div>-->
         <!--save/submit button-->
         <div class="you_shall_pass col s12 center-align">
             <button type="submit" class="btn waves-effect orange lighten-1">

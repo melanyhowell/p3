@@ -18,6 +18,10 @@ def recipes():
 def add_recipe():
     if request.method == "POST":
         recipe = Recipe(recipe_name=request.form.get("recipe_name"))
+        recipe = Recipe(recipe_description=request.form.get("recipe_description"))
+        recipe = Recipe(recipe_cook_temp=request.form.get("recipe_cook_temp"))
+        recipe = Recipe(recipe_prep_time=request.form.get("recipe_prep_time"))
+        recipe = Recipe(recipe_cook_time=request.form.get("recipe_cook_time"))
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("recipes"))
