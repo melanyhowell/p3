@@ -1,6 +1,6 @@
 from flask import render_template, request, redirect, url_for
 from munch import app, db
-from munch.models import Category, Recipe
+from munch.models import Recipe, Category
 
 
 @app.route("/")
@@ -10,7 +10,8 @@ def home():
 
 @app.route("/recipes")
 def recipes():
-    return render_template("recipes.html")
+    recipes = list(Recipe.query.order_by(Recipe.recipe_name).all())
+    return render_template("recipes.html", recipes=recipes)
 
 
 @app.route("/add_recipe", methods=["GET", "POST"])
