@@ -28,7 +28,8 @@ class Recipe(db.Model):
     recipe_prep_time = db.Column(db.Integer, nullable=False)
     recipe_cook_time = db.Column(db.Integer, nullable=False)
     # recipe_ingredients = db.Column(db.String, nullable=False)
-    categories = db.relationship("Category", secondary=recipe_category, backref="recipes")
+    categories = db.relationship("Category", secondary=recipe_category,
+                                 backref="recipes")
 
     def __repr__(self):
         return self.recipe_name
