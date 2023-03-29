@@ -5,7 +5,7 @@ from munch.models import Category, Recipe
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("add_recipe.html")
 
 
 @app.route("/recipes")
@@ -15,11 +15,9 @@ def recipes():
 
 @app.route("/add_recipe", methods=["GET", "POST"])
 def add_recipe():
-    if requested.method == "POST":
+    if request.method == "POST":
         recipe = Recipe(recipe_name=request.form.get("recipe_name"))
         db.session.add(recipe)
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("add_recipe.html")
-
-
