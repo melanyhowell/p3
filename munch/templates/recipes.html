@@ -12,17 +12,21 @@
 </div>
 <div class="row">
   {% for recipe in recipes %}
-    <div class="col s12 m7 l3">
+    <div class="col s12 m7 l6">
       <div class="card center-align">
-        <div class="card-image">
-          <img src="images/sample-1.jpg">
-          <span class="text-orange card-title">{{ recipe.recipe_name }}</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons center-align">+</i></a>
-        </div>
         <div class="card-content">
+          <span class="text-orange card-title">{{ recipe.recipe_name }}</span>
           <!--recipe desciption-->
           <p class="recipe_description">{{ recipe.recipe_description}}</p>
+          <!--recipe cook temp-->
+          <i class="fas fa-temperature-three-quarters"> Cook Temp {{recipe.recipe_cook_temp }}</i>
+          <!--recipe Prep time-->
+          <br>
+          <i class="fas fa-clock"> Prep Time {{recipe.recipe_prep_time }} mins</i>
+          <!--recipe Prep time-->
+        <i class="fas fa-clock"> Cook Time {{recipe.recipe_cook_time }} mins</i>
         </div>
+      </div>
         <!--owner authorisation only access-->
         {% if recipe.owner == session.user %}
         <div class="card-action">

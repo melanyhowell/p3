@@ -22,7 +22,8 @@ def add_recipe():
             recipe_description=request.form.get("recipe_description"),
             recipe_cook_temp=request.form.get("recipe_cook_temp"),
             recipe_prep_time=request.form.get("recipe_prep_time"),
-            recipe_cook_time=request.form.get("recipe_cook_time")
+            recipe_cook_time=request.form.get("recipe_cook_time"),
+            recipe_ingredients1=request.form.get("recipe_ingredients1")
         )
         db.session.add(recipe)
         db.session.commit()
@@ -39,6 +40,7 @@ def edit_recipe(recipe_id):
         recipe.recipe_cook_temp = request.form.get("recipe_cook_temp")
         recipe.recipe_prep_time = request.form.get("recipe_prep_time")
         recipe.recipe_cook_time = request.form.get("recipe_cook_time")
+        recipe.recipe_ingredients1 = request.form.get("recipe_ingredients1")
         db.session.commit()
         return redirect(url_for("recipes"))
     return render_template("edit_recipe.html", recipe=recipe)

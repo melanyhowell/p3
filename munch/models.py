@@ -27,7 +27,7 @@ class Recipe(db.Model):
     recipe_cook_temp = db.Column(db.Integer, nullable=False)
     recipe_prep_time = db.Column(db.Integer, nullable=False)
     recipe_cook_time = db.Column(db.Integer, nullable=False)
-    # recipe_ingredients = db.Column(db.String, nullable=False)
+    # recipe_ingredients1 = db.Column(db.String, nullable=False)
     categories = db.relationship("Category", secondary=recipe_category,
                                  backref="recipes")
 
