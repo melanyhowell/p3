@@ -26,8 +26,10 @@ My project is incomplete please can you provide me with any feedback possible, t
   + [User Stories and Goals](#user-stories-and-goals)
 + [Scope Plane](#scope-plane)
 + [Structure Plane](#structure-plane)
-+[Skeleton Plane](#skeleton-plane)
-    + [Contact Form Page](#contact-form-page)
++ [Skeleton Plane](#skeleton-plane)
+    + [Header](#header)
+    + [Footer](#footer)
++ [Site Visuals - Surface Plane](#site-visuals---surface-plane)
     + [Form Confirmation Page](#form-confirmation-page)
     + [Site Structure](#site-structure)
     + [Colour Pallette](#colour-pallette)
@@ -35,9 +37,7 @@ My project is incomplete please can you provide me with any feedback possible, t
     + [Imagery](#imagery)
 + [Features](#features)
   + [Included Features](#included-features)
-    + [Header](#header)
-    + [Home](#home)
-    + [Footer](#footer)
+    
     + [Product Page](#product-page)
         + [Product Information](#product-information)
     + [Contact Page](#contact-page)
@@ -195,15 +195,15 @@ Navigation throughout the site will be from the Nav Bar accesible in the header 
 
 #### Header
 
-+ Navbar -
+Header & Navbar
 
-![Header](/assets/readmeimages/header.png)
+![Header](/munch/static/images/munch-header.png)
 
 #### Footer
 
 + Social Media & Contact Links for Owners and Developer
 
-![Footer](/assets/readmeimages/footer.png)
+![Footer](/munch/static/images/munch-footer.png)
 
 ### How do you navigate through the information and features?
 
@@ -219,7 +219,9 @@ Priority was also given to help visulaise how a recipe might be followed in real
 
 ---
 
-## Site Visuals (Surface Plane) - What Will the finished product look like?
+## Site Visuals - Surface Plane
+
+ What Will the finished product look like?
 
 ### Wireframes
 
@@ -227,58 +229,52 @@ I created my Wireframes using [Balsamiq](https://balsamiq.com).
 
 #### Home Page
 
-![Home/Game Page Wireframes](assets/image/location)
+![Home/Game Page Wireframes](/munch/static/images/home-page.png)
 
 #### Recipie Repository Page
 
+![Home/Game Page Wireframes](/munch/static/images/recipes-page.png)
+
 #### Sign In Page
 
+![Home/Game Page Wireframes](/munch/static/images/Sign-in-page.png)
 #### Products Page
 
+![Home/Game Page Wireframes](/munch/static/images/shop-page.png)
 #### Contact & Socials Page
 
-![Contact Page Wireframes](assets/image/location)
+![Home/Game Page Wireframes](/munch/static/images/contact-page.png)
 
 ### Colour Pallete
 
-I wanted my site to represent an
+I wanted my site to represent a bright and lively display so will be going with an orange from materialize.
 
 ### Typography
 
-The fonts I selected were;
-
-+ Bungee
-
-That have been imported from [Google Fonts](https://fonts.google.com/).
-I chose these fonts due
+The fonts I selected were not ideal to the finished product i wished to present;
 
 ### Imagery
 
-Style and statements I wanted to make
+Style and statements I wanted to make are still pending but there will be a minamalist addition of images other than the images submitted in the recipes.
 
 ### Design elements
 
-I used design elements such as
-
-### Site Visuals - Surface Plane of UXD
-
-My site consists of
-
-### Imagery
-
-Style and statements I wanted to make
+I used design elements such as Materialize which greatly helps with planning and positioning the layout of the pages.
 
 ---
 
 ### Future Developments
 
-+
++ integrate a rating system for recipes
++ in depth catergory sytem
+
++ links to recipe how to videos etc.
 
 ---
 
-## Thought Process
+<!--## Thought Process
 
-### Thought 1
+### Thought 1-->
 
 ---
 
@@ -301,7 +297,7 @@ Style and statements I wanted to make
 
 ## Testing
 
-Due to the large amount of testing required i had to colate the reults and processes on a seperate page please [click here](testing.md)
+Due to the unfinished nature of my site I was unable to test extensivley <!-- [click here](testing.md)-->
 
 ## Deployment
 
@@ -309,30 +305,34 @@ The site was deployed to GitHub pages.
 
 + Go To your Git Hub Repository
 + Under Repository Name, click on "Settings"
-![setting image](/assets/readme-images/Repository%20Settings.png)
+![setting image](/munch/static/images/github-settings.png)
 + Click on "Pages" options on the left hand side of the screen
-![Page selection](/assets/readme-images/pagessettings.png)
-+ under "build & deployment, & under "source" select "main Branch".
+![Page selection](/munch/static/images/github-pages.png)
++ under "build & deployment, & under "source" select "main Branch".![Page selection](/munch/static/images/github-build-deployment.png)
 + and then select publishing source "(root)
 + click Save
 + this will then give you your Git Pages address
-![GitHub Pages](/assets/readme-images/livesiteaddress.png)
+![GitHub Pages](/munch/static/images/livesite.png)
 
+ [live site on git hub](https://melanyhowell.github.io/p3-munch/)
 ## Sources
 
+Codemy on Youtube was very helpful in seeing how the basics of SQL ALchemy came together - [link](https://www.youtube.com/watch?v=Q2QmST-cSwc&t=540s)
 ### Media
 
-Obtained from the free photo sites such as;
-
-+ [Pexels](https://www.pexels.com/) for Background Image
-+
+so far no images were sourced other than icons from Font Awesome
 
 ### Code
 
 + with issues I found I used the following references;
 
+[code institute walkthrough](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DIWADRDB+2022_Q3/courseware/c0c31790fcf540539fd2bd3678b12406/6e44128b0b37416ab40c1a87ef2cb32a/)
+
+many-many relationship issues -
+[abdelhadi Dyouri tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-many-to-many-database-relationships-with-flask-sqlalchemy)
+
 ## Credits & Acknowlegements
 
-+ Inspiration for Email confirmation popup comes from youtube link - (https://www.youtube.com/watch?v=AF6vGYIyV8M) - [Easy Tutorials]
++ Thank you to my newly assigned mentor Chris, he has helped me see its not a problem to ask if stuck and the problem is never as big as it seems.
 
 Melany Howell 2023.
