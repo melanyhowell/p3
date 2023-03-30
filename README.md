@@ -3,6 +3,8 @@
 
 I have created a full-stack website [site](website address) that allows my users to manage a common dataset in the form of recipies to cookbook domain.
 
+My project is incomplete please can you provide me with any feedback possible, thank you.
+
 ![multi-device](assets/readmeimages/multiscreen.png)
 
 ## Live Site
@@ -18,14 +20,13 @@ I have created a full-stack website [site](website address) that allows my users
 ## Contents
 
 + [Project Requirements](#project-requirements)
-+ [Objectives](#Objectives)
-+ [Target Audience](#target-audience)
-+ [User Experience: UX](#user-exerience-ux)
-  + [Initial Concept](#initial-concept)
-  + [User Stories](#user-stories)
-  + [Wireframes](#wireframes)
-    + [Home Page](#home-page)
-    + [Product Page](#productservices-page)
++ [UX and UI](#ux-and-ui)
++ [Strategy Plane](#strategy-plane)
+  + [Initial Idea](#initial-idea)
+  + [User Stories and Goals](#user-stories-and-goals)
++ [Scope Plane](#scope-plane)
++ [Structure Plane](#structure-plane)
++[Skeleton Plane](#skeleton-plane)
     + [Contact Form Page](#contact-form-page)
     + [Form Confirmation Page](#form-confirmation-page)
     + [Site Structure](#site-structure)
@@ -89,7 +90,7 @@ Mandatory Requirements
 
 ---
 
-## UX & UI
+## UX and UI
 
 Creating products that are useful, useable and provide value using UCD (User Centered Design)
 
@@ -99,13 +100,15 @@ User Centric Design process using 5 planes of UX is what I will focus on to ensu
 
 ---
 
-## The Idea, Objectives and Users needs (Strategy Plane)
+## Strategy Plane
+
+The Idea, Objectives and Users needs
 
 ### Initial Idea
 
 To create a Application that allows people to access many different styles and sources of recipies from many different collaborators, while also advertising high quality kitchen tools and appliances.
 
-### User Stories & Goals
+### User Stories and Goals
 
 Being the primary user I expect the following -
 
@@ -128,7 +131,9 @@ As a developer I am looking to provide the following -
 
 ---
 
-## How am I going to provide users with what they want (Scope Plane)
+## Scope Plane
+
+How am I going to provide users with what they want
 
 Which features, based on information from strategy plane, do you want to include in your design?
 
@@ -142,7 +147,9 @@ Which features, based on information from strategy plane, do you want to include
 
 ---
 
-## Interaction of features (Structure Plane)
+## Structure Plane
+
+Interaction of features
 
 How is the information structured and how is it logically grouped, the features, the elements, the data, the information?
 
@@ -178,7 +185,9 @@ How is the information structured and how is it logically grouped, the features,
 
 ---
 
-## Inteface and Navigation Design (Skeleton Plane)
+## Skeleton Plane
+
+Inteface and Navigation Design
 
 ### How will our information be represented, and how will the user navigate to the infomration and the features?
 
@@ -186,7 +195,6 @@ Navigation throughout the site will be from the Nav Bar accesible in the header 
 
 #### Header
 
-+ Logo -
 + Navbar -
 
 ![Header](/assets/readmeimages/header.png)
